@@ -23,6 +23,6 @@ class YgActXrocketModule(loader.Module):
                 await message.client.send_message('xrocket', command)
                 await message.mark_read()
 
-    async def stat_yg_actxrocketcmd(self, message):
+    async def stat_yg_actxrocketurlonlycmd(self, message):
         """Проверить работоспособность активатора @xrocket"""
         await message.edit("<b>Активатор @xrocket работает <emoji document_id=5348140027698227662>🙀</emoji></b>")
